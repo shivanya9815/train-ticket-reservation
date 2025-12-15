@@ -21,6 +21,10 @@ jobs:
          run: mvn test
        - name: maven package
          run: mvn package
+
+       -name: verify WAR file 
+       run: ls -lh target/
+       
       
 
        
